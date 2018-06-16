@@ -1,0 +1,30 @@
+{
+  "name": "jquery-get-most-visible",
+  "version": "1.0.0",
+  "description": "jQuery plugin to get the most visible element in viewport",
+  "main": "jquery.getMostVisible.min.js",
+  "scripts": {
+    "build": "uglifyjs --compres -o ./dist/jquery.getMostVisible.min.js -- ./src/jquery.getMostVisible.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lamiruma/jQuery.getMostVisible.git"
+  },
+  "dependencies": {
+    "jquery": ">=1.2.3"
+  },
+  "keywords": [
+    "jquery",
+    "jquery-plugin",
+    "viewport",
+    "most visible",
+    "most"
+  ],
+  "author": "Jeremiah Nadler",
+  "license": "MIT",
+  "homepage": "https://github.com/lamiruma/jQuery.getMostVisible",
+  "devDependencies": {
+    "uglify-js": "^2.4.16"
+  }
+}
