@@ -16,4 +16,4 @@ Returns the most visible Element in viewport that matches a selector.
 [http://get-most-visible.surge.sh/example](http://get-most-visible.surge.sh/example)
 
 ## CDN
-https://cdn.rawgit.com/lamiruma/jQuery.getMostVisible/v1.0.0/dist/jquery.getMostVisible.min.js
+https://cdn.jsdelivr.net/gh/lamiruma/jQuery.getMostVisible@v1.0.0/dist/jquery.getMostVisible.min.js
