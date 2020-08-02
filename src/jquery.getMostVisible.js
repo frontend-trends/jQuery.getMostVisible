@@ -10,7 +10,6 @@
 (function ( $ ) {
     'use strict';
 
-	var pluginName = 'getMostVisible';
     (function ($) {
         $.extend({
             getMostVisible: function (options) {
@@ -25,7 +24,7 @@
                 var mostVisibleElement = null;
                 var skipRest = false;
             
-                var visibleElems = $(settings.selector).each(function(i, element) {
+                $(settings.selector).each(function(i, element) {
                     if (skipRest === false) {
                         clientRect = element.getBoundingClientRect();
                         clientRectTop = Math.abs(clientRect.top);

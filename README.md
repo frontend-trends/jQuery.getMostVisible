@@ -1,19 +1,27 @@
 # jQuery plugin for scrolling in fullscreen sections
 
+Calculates the most visible Element with a class.
+
 ## Usage
 
-Returns the most visible Element in viewport that matches a selector.
+    1. Import jQuery:
 
-    $.getMostVisible({
-        selector: '.my-container'
-    });
+    2. Import the extension:
 
-## Dependencies
-    This plugin makes use of:
-    - https://github.com/jquery/jquery
+        ```html
+        <script src="https://cdn.rawgit.com/lamiruma/jQuery.getMostVisible/v1.0.1/dist/jquery.getMostVisible.min.js"></script>
+        ```
+
+    2. Use the extension:
+
+        ```html
+        $.getMostVisible({
+            selector: '.my-container'
+        });
+        ```
 
 ## Demo
 [http://get-most-visible.surge.sh/example](http://get-most-visible.surge.sh/example)
 
 ## CDN
-https://cdn.rawgit.com/lamiruma/jQuery.getMostVisible/v1.0.0/dist/jquery.getMostVisible.min.js
+https://cdn.rawgit.com/lamiruma/jQuery.getMostVisible/v1.0.1/dist/jquery.getMostVisible.min.js

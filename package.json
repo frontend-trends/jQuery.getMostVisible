@@ -11,15 +11,12 @@
     "type": "git",
     "url": "git@github.com:lamiruma/jQuery.getMostVisible.git"
   },
-  "dependencies": {
-    "jquery": ">=1.2.3"
-  },
   "keywords": [
     "jquery",
     "jquery-plugin",
     "viewport",
     "most visible",
-    "most"
+    "jquery-extension"
   ],
   "author": "Jeremiah Nadler",
   "license": "MIT",
