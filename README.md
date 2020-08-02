@@ -21,7 +21,7 @@ Calculates the most visible Element with a class.
         ```
 
 ## Demo
-[http://get-most-visible.surge.sh/example](http://get-most-visible.surge.sh/example)
+[http://get-most-visible.surge.sh](http://get-most-visible.surge.sh)
 
 ## CDN
 https://cdn.rawgit.com/lamiruma/jQuery.getMostVisible/v1.0.1/dist/jquery.getMostVisible.min.js
